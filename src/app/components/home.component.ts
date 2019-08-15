@@ -9,6 +9,7 @@ export class HomeComponent{
 
 	constructor(){
 		this.titulo = 'Prueba de crud';
+
 	}
 
 	ngOnInit(){
