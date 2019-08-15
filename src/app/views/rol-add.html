@@ -1,0 +1,13 @@
+<div class="card jumbotron">
+	<h3>{{titulo}}</h3>
+	<label>
+		Nombre
+	</label>
+	<input type="text"  name="nombre" [(ngModel)]="nombre" class="form-control" required />
+	<label>
+		Descripción
+	</label>
+	<textarea name="descripcion" [(ngModel)]="descripcion" class="form-control" required></textarea>
+	<br/>
+	<button (click)="getAddRol()" class="btn btn-primary">Crea</button>
+</div>
